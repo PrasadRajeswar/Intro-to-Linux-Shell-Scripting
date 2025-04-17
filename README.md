@@ -16,11 +16,11 @@ At first we open a file in nano text editor. To do so, give-
 This should return,   
 `-rw-r--r-- 1 dell dell 0 Apr 16 15:14 day1.sh`
 Let's breakdown the above-
-`- denotes that it's a text file.   
-d- denotes that it's a directory.
-r- read permission
-w- write permission
-`   
+`-` denotes that it's a text file.   
+`d`  denotes that it's a directory.
+`r` read permission
+`w` write permission
+   
 So, we can see that our file `day1.sh` doesn't have execute permission. To make the file executable give,   
 `chmod +x day1.sh
 or
