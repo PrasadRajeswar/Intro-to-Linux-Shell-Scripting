@@ -22,13 +22,17 @@ In this repo, we will be using `nano` text editor to write and execute our shell
 `w` write permission      
    
 - So, we can see that our file `day1.sh` doesn't have execute permission. To make the file executable give,     
-`chmod +x day1.sh    
+```
+chmod +x day1.sh    
 or
-chmod +xr day1.sh`      
+chmod +xr day1.sh
+```      
 - Where, `chmod` stands for change of mode and `+x` is the file execute permission. after this, again run `ls -l` on the terminal.   
 - Now the output comes as-   
-`-rwxr-xr-x 1 dell dell 0 Apr 16 15:17 day1.sh    
-where, x is executable permission`     
+```
+-rwxr-xr-x 1 dell dell 0 Apr 16 15:17 day1.sh    
+where, x is executable permission
+```     
 
 NOTE- In the command, `-rwxr-xr-x`   
 1. `-` denotes its a text file.       
@@ -38,25 +42,33 @@ NOTE- In the command, `-rwxr-xr-x`
       
 To execute the file, you need to have read and execute permisison of that file.         
 - Since now we have execute permisison, it's time to execute the file. But, before that, let's add some content in the file `day1.sh` so that we can see them executing. To do so, open the file through `nano day1.sh` command and add the following to it.          
-`#!/bin/bash
-echo "You don't need to be great to start something but, you need to start to be great.`             
-- Then, `ctrl+o` to save and `enter` to confirm the file name and exit. Furthur, give the `./day1.sh` to execute the file. after executing, the output shall be following-          
+```
+#!/bin/bash
+echo "You don't need to be great to start something but, you need to start to be great.
+```
+            
+- Then, `ctrl+o` to save and `enter` to confirm the file name and exit. Furthur, give the `./day1.sh` to execute the file.     
+- After executing, the output shall be following-          
 `You don't need to be great to start something but, you need to start to be great.`                  
 - Have you noticed, we wrote `#!/bin/bash` in the top line in our file `day1.sh`. What does that mean???             
-- The `#!` means `shebang` It determines what path the program will be executing in the file. The `echo` however is a builtin command to print the content in the file.                                
+- The `#!` means `shebang` It determines what path the program will be executing in the file.     
+- The `echo` however is a builtin command to print the content in the file.                                
 - How to know type of the command we are giving??? just give the below command on the terminal.               
 `type <command>`                           
 - The command & output will be following-            
-`type echo
+```
+type echo
 echo is a shell builtin
-`       
+```         
 
 ## Working with Variable(s)-                                   
 Lets try to add some variables to our script and execute it.                       
-- Let the variable be `SKILL`.                             
-`#!/bin/bash
+- Let the variable be `SKILL`.                                  
+```
+#!/bin/bash
 SKILL= "Shell Scripting"
-echo "I am best at ${SKILL}. and trying to learn more about ${SKILL}."`                        
+echo "I am best at ${SKILL}. and trying to learn more about ${SKILL}."
+```                            
 - The output will come as-                              
 `I am best at Shell Scripting. and trying to learn more about Shell Scripting.`                
 
