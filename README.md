@@ -85,8 +85,53 @@ Invalid Variable Examples-
 `0Skill 1_SKILL -SKILL @skill S@kill`                   
 NOTE-
 
-## Decision making on Shell-   
+## Writing Long and Complicated Scripts-
+We learned that it's a good practice to start your scripts with a comment or a letter that describes the goal of the script. Let's try an example-   
+```
+#!/bin/bash
 
+#this script displays information about the system on which it is executed.
+
+#tell the user the script is starting.
+echo "Starting the sysinfo script."
+
+#Display the hostname of the system.
+hostname
+
+#Display the current date and time when this information is collected.
+date
+
+#Display the kernel release follwed by the architecture
+uname -r
+uname -m
+
+#Display the disk usage in a human reading format
+df -h
+
+#Ending the script
+echo "Stopping the code."
+```
+## Decision making on Shell-   
+When you start automating your work with shell scripts you have to put your good decision making abilities into your scripts.    
+- One way to do this is by using IF statements in real life.
+- Let's create a script that displays if the user running that script is using the root account or root.
+```
+#!/bin/bash
+
+#determine if the user executing this script is the user or not.
+
+#Display the UID
+echo "Your UID is ${UID}"
+
+#Display if the user is the root or not.
+if [[ "${UID}" -eq 0 ]]
+then
+	echo "You are root."
+else
+	echo "You are not root"
+fi
+```
+Let's say you want to ensure that install software you want to make sure the person executing is root
 
 
 
