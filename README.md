@@ -72,7 +72,8 @@ echo "I am best at ${SKILL}. and trying to learn more about ${SKILL}."
 - The output will come as-                              
 `I am best at Shell Scripting. and trying to learn more about Shell Scripting.`                
 
-So, what did we notice?? SKILL was our variable. and "Shell Scripting" was the value assigned to the SKILL variable. In the second line, to call the SKILL variable, we used `${}`. inside the braces, we call our variable.                  
+So, what did we notice?? SKILL was our variable. and "Shell Scripting" was the value assigned to the SKILL variable.    
+In the second line, to call the `SKILL` variable, we used `${}`; inside the braces, we call our variable.                  
 
 Rules for the variable declaration-                            
 1. Variable names can contain Letters, Digits & Underscore.                      
