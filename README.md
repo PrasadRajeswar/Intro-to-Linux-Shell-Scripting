@@ -131,8 +131,26 @@ else
 	echo "You are not root"
 fi
 ```
-Let's say you want to ensure that install software you want to make sure the person executing is root
+Let's modify the code with a real example.    
+- For example if you write a shell script that install software you want to make sure the person executing the script is using root privileges because root privileges are required to install software.
+- So let's edit our script again and change it slightly such that it could fit this example.
+```
+#!/bin/bash
 
+#determine if the user executing this script is the user or not.
+
+#Display the UID
+echo "Your UID is ${UID}"
+
+#Display if the user is the root or not.
+if [[ "${UID}" -eq 0 ]]
+then
+	echo "installing software"
+	#The commands to install the software.
+else
+	echo "You do not have the permission to install the software"
+fi
+```
 
 
 
