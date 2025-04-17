@@ -49,7 +49,8 @@ How to know type of the command we are giving??? just give the below command on 
 `type <command>   
 type echo`                        
 the output will be following-            
-`echo is a shell builtin`                  
+`echo is a shell builtin`       
+
 ##Working with Variable(s)-                                   
 Lets try to add some variables to our script and execute it.                       
 Let the variable be `SKILL`.                             
@@ -58,7 +59,9 @@ SKILL= "Shell Scripting"
 echo "I am best at ${SKILL}. and trying to learn more about ${SKILL}."`                        
 The output will come as-                              
 `I am best at Shell Scripting. and trying to learn more about Shell Scripting.`                
+
 So, what did we notice?? SKILL was our variable. and "Shell Scripting" was the value assigned to the SKILL variable. In the second line, to call the SKILL variable, we used `${}`. inside the braces, we call our variable.                  
+
 Rules for the variable declaration-                            
 1. Variable names can contain Letters, Digits & Underscore.                      
 2. However the variable name can only start with Letters and undercore.                          
@@ -67,7 +70,8 @@ Some Valid Examples are-
 ` SKILL  Skill  _Skill  skill  SkILL`                  
 Invalid Variable Examples-                      
 `0Skill 1_SKILL -SKILL @skill S@kill`                   
-NOTE-                        
+NOTE-
+
 ##Decision making on Shell-   
 
 
