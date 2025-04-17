@@ -51,7 +51,7 @@ type echo`
 the output will be following-            
 `echo is a shell builtin`       
 
-##Working with Variable(s)-                                   
+## Working with Variable(s)-                                   
 Lets try to add some variables to our script and execute it.                       
 Let the variable be `SKILL`.                             
 `#!/bin/bash
@@ -72,7 +72,7 @@ Invalid Variable Examples-
 `0Skill 1_SKILL -SKILL @skill S@kill`                   
 NOTE-
 
-##Decision making on Shell-   
+## Decision making on Shell-   
 
 
 
