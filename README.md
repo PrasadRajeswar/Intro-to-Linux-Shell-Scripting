@@ -45,10 +45,10 @@ echo "You don't need to be great to start something but, you need to start to be
 - Have you noticed, we wrote `#!/bin/bash` in the top line in our file `day1.sh`. What does that mean???             
 - The `#!` means `shebang` It determines what path the program will be executing in the file. The `echo` however is a builtin command to print the content in the file.                                
 - How to know type of the command we are giving??? just give the below command on the terminal.               
-`type <command>   
-type echo`                        
-- The output will be following-            
-`echo is a shell builtin`       
+`type <command>`                           
+- The command & output will be following-            
+`type echo
+echo is a shell builtin`       
 
 ## Working with Variable(s)-                                   
 Lets try to add some variables to our script and execute it.                       
