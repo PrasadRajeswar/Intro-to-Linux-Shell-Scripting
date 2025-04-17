@@ -47,7 +47,7 @@ echo "You don't need to be great to start something but, you need to start to be
 - How to know type of the command we are giving??? just give the below command on the terminal.               
 `type <command>`                           
 - The command & output will be following-            
-`type echo
+`type echo    
 echo is a shell builtin`       
 
 ## Working with Variable(s)-                                   
