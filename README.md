@@ -34,7 +34,8 @@ NOTE- In the command, `-rwxr-xr-x`
 1. `-` denotes its a text file.       
 2. First three `rwx` denotes permission given to the owner of the file.      
 3. Next three `r-x` denotes permission given to the group of the file.        
-4. Last three `r-x` denotes permisison given to everyone else in the system.       
+4. Last three `r-x` denotes permisison given to everyone else in the system.
+      
 To execute the file, you need to have read and execute permisison of that file.         
 Since now we have execute permisison, it's time to execute the file. But, before that, let's add some content in the file `day1.sh` so that we can see them executing. To do so, open the file through `nano day1.sh` command and add the following to it.          
 `#!/bin/bash
