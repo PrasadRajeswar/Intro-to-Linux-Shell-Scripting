@@ -47,7 +47,7 @@ To execute the file, you need to have read and execute permisison of that file.
 echo "You don't need to be great to start something but, you need to start to be great.
 ```
             
-- Then, `ctrl+o` to save and `enter` to confirm the file name and exit. Furthur, give the `./day1.sh` to execute the file.     
+- Then, `ctrl+o` to save and `enter` to confirm the file name and exit. Further, give the `./day1.sh` to execute the file.     
 - After executing, the output shall be following-          
 `You don't need to be great to start something but, you need to start to be great.`                  
 - Have you noticed, we wrote `#!/bin/bash` in the top line in our file `day1.sh`. What does that mean???             
