@@ -37,14 +37,13 @@ NOTE- In the command, `-rwxr-xr-x`
 4. Last three `r-x` denotes permisison given to everyone else in the system.
       
 To execute the file, you need to have read and execute permisison of that file.         
-Since now we have execute permisison, it's time to execute the file. But, before that, let's add some content in the file `day1.sh` so that we can see them executing. To do so, open the file through `nano day1.sh` command and add the following to it.          
+- Since now we have execute permisison, it's time to execute the file. But, before that, let's add some content in the file `day1.sh` so that we can see them executing. To do so, open the file through `nano day1.sh` command and add the following to it.          
 `#!/bin/bash
 echo "You don't need to be great to start something but, you need to start to be great.`             
-Then, `ctrl+o` to save and `enter` to confirm the file name and exit. Furthur, give the `./day1.sh` to execute the file. after executing, the output shall be following-          
+- Then, `ctrl+o` to save and `enter` to confirm the file name and exit. Furthur, give the `./day1.sh` to execute the file. after executing, the output shall be following-          
 `You don't need to be great to start something but, you need to start to be great.`                  
-Have you noticed, we wrote `#!/bin/bash` in the top line in our file `day1.sh`. What does that mean???             
-The `#!` means `shebang` It determines what path the program will be executing in the file.                
-the `echo` however is a builtin command to print the content in the file.                            
+- Have you noticed, we wrote `#!/bin/bash` in the top line in our file `day1.sh`. What does that mean???             
+- The `#!` means `shebang` It determines what path the program will be executing in the file. The `echo` however is a builtin command to print the content in the file.                                
 How to know type of the command we are giving??? just give the below command on the terminal.               
 `type <command>   
 type echo`                        
@@ -53,11 +52,11 @@ the output will be following-
 
 ## Working with Variable(s)-                                   
 Lets try to add some variables to our script and execute it.                       
-Let the variable be `SKILL`.                             
+- Let the variable be `SKILL`.                             
 `#!/bin/bash
 SKILL= "Shell Scripting"
 echo "I am best at ${SKILL}. and trying to learn more about ${SKILL}."`                        
-The output will come as-                              
+- The output will come as-                              
 `I am best at Shell Scripting. and trying to learn more about Shell Scripting.`                
 
 So, what did we notice?? SKILL was our variable. and "Shell Scripting" was the value assigned to the SKILL variable. In the second line, to call the SKILL variable, we used `${}`. inside the braces, we call our variable.                  
