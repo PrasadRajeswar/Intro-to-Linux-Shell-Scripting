@@ -44,10 +44,10 @@ echo "You don't need to be great to start something but, you need to start to be
 `You don't need to be great to start something but, you need to start to be great.`                  
 - Have you noticed, we wrote `#!/bin/bash` in the top line in our file `day1.sh`. What does that mean???             
 - The `#!` means `shebang` It determines what path the program will be executing in the file. The `echo` however is a builtin command to print the content in the file.                                
-How to know type of the command we are giving??? just give the below command on the terminal.               
+- How to know type of the command we are giving??? just give the below command on the terminal.               
 `type <command>   
 type echo`                        
-the output will be following-            
+- The output will be following-            
 `echo is a shell builtin`       
 
 ## Working with Variable(s)-                                   
