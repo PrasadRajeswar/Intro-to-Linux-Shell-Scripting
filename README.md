@@ -4,29 +4,29 @@ A shell script is simply a plain text file that contains a series of commands an
 We need a text editor to edit and execute the shell script. If you have already installed your favorite text editor good to go! if not, then either you can install gvim, gedit or any other text editor you want. Else, you can start with `vim` or `nano` text editor. some distro comes with nano inbuilt while in some machine, we need to install it.
 To install the nano text editor, execute the following command in the terminal.    
 
-For RedHat based system,    
+- For RedHat based system,    
 `sudo yum install -y nano`     
-For Debian based system,     
+- For Debian based system,     
 `sudo apt-get install -y nano`       
 
 In this repo, we will be using `nano` text editor to write and execute our shell script.   
-At first we open a file in nano text editor. To do so, give-   
+- At first we open a file in nano text editor. To do so, give-   
 `nano day1.sh`   
-`.sh` is the extension for the script file. However, unlike the other file formats extension is not necessary. Rather the permission to execute the file is of the top most priority. To check the read, write & executable status of the file give, `ls -l` in the terminal.   
-This should return,   
+- `.sh` is the extension for the script file. However, unlike the other file formats extension is not necessary. Rather the permission to execute the file is of the top most priority. To check the read, write & executable status of the file give, `ls -l` in the terminal.   
+- This should return,   
 `-rw-r--r-- 1 dell dell 0 Apr 16 15:14 day1.sh`    
-Let's breakdown the above-     
+- Let's breakdown the above-     
 `-` denotes that it's a text file.       
 `d`  denotes that it's a directory.    
 `r` read permission    
 `w` write permission      
    
-So, we can see that our file `day1.sh` doesn't have execute permission. To make the file executable give,     
+- So, we can see that our file `day1.sh` doesn't have execute permission. To make the file executable give,     
 `chmod +x day1.sh    
 or
 chmod +xr day1.sh`      
-where, `chmod` stands for change of mode and `+x` is the file execute permission. after this, again run `ls -l` on the terminal.   
-Now the output comes as-   
+- Where, `chmod` stands for change of mode and `+x` is the file execute permission. after this, again run `ls -l` on the terminal.   
+- Now the output comes as-   
 `-rwxr-xr-x 1 dell dell 0 Apr 16 15:17 day1.sh    
 where, x is executable permission`     
 
