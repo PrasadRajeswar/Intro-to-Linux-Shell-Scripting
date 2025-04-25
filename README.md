@@ -16,7 +16,7 @@ This repository introduces the basics of Linux shell scripting. A shell script i
 - [Decision-Making in Shell Scripts](#decision-making-in-shell-scripts)
   - [Example: Check for Root Privileges](#example-check-for-root-privileges)
   - [Practical Example: Software Installation](#practical-example-software-installation)
-- [Unix for VLSI Engineers – Learning Resource](#-unix-for-vlsi-engineers--learning-resource)
+- [Unix for VLSI Engineers – Learning Resource](#unix-for-vlsi-engineers--learning-resource)
 - [Summary](#summary)
 
 ---
