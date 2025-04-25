@@ -1,6 +1,5 @@
 # Intro to Linux Shell Scripting
 
-This repository introduces the basics of Linux shell scripting. A shell script is a plain text file containing a sequence of commands. When executed, it runs the commands listed from top to bottom, line by line, just as if you had typed them directly into the terminal. This makes shell scripting a powerful tool for automating repetitive tasks performed via the command line.
 <p align="justify">
 This repository <strong>introduces the basics of Linux shell scripting</strong>. A <strong>shell script</strong> is a plain text file containing a sequence of commands. When executed, it runs the commands listed from top to bottom, line by line, just as if you had typed them directly into the terminal. This makes <strong>shell scripting</strong> a powerful tool for automating repetitive tasks performed via the command line.
 </p>
