@@ -2,6 +2,22 @@
 
 This repository introduces the basics of Linux shell scripting. A shell script is a plain text file containing a sequence of commands. When executed, it runs the commands listed from top to bottom, line by line, just as if you had typed them directly into the terminal. This makes shell scripting a powerful tool for automating repetitive tasks performed via the command line.
 
+## Table of Contents
+
+- [Intro to Linux Shell Scripting](#intro-to-linux-shell-scripting)
+- [Prerequisites: Text Editor](#prerequisites-text-editor)
+- [Creating Your First Shell Script](#creating-your-first-shell-script)
+- [Writing and Executing the Script](#writing-and-executing-the-script)
+- [Script Header: `#!/bin/bash`](#script-header-binbash)
+- [Understanding Commands: Built-ins vs External](#understanding-commands-built-ins-vs-external)
+- [Using Variables in Shell Scripts](#using-variables-in-shell-scripts)
+  - [Variable Naming Rules](#rules-for-variable-naming)
+- [Writing Longer Scripts](#writing-longer-scripts)
+- [Decision-Making in Shell Scripts](#decision-making-in-shell-scripts)
+  - [Example: Check for Root Privileges](#example-check-for-root-privileges)
+  - [Practical Example: Software Installation](#practical-example-software-installation)
+- [Summary](#summary)
+
 ---
 
 ## Prerequisites: Text Editor
