@@ -227,10 +227,6 @@ We are using a curated online video series to learn Unix tailored specifically f
 
 🔗 **Access the Course Here**: [Unix for VLSI Engineers](https://katchupindia.web.app/unixweb)
 
-🔐 **Login Credentials**:
-- **Email**: narasayya@gmail.com  
-- **Password**: nMxRGa_UorN.9JHZe
-
 📝 **Note**: The platform also contains all the assignments, which are available on the same link.
 
 ---
