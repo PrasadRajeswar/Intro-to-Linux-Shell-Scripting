@@ -229,5 +229,6 @@ fi
 
 This repository offers a foundational guide to writing, executing, and understanding basic shell scripts. As you progress, you’ll learn to automate more complex tasks using conditionals, loops, and functions.
 
-Happy scripting!
+Happy scripting! 🙂
+---
 
